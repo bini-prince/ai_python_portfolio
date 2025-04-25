@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP76+JKVWseb2Nvauea0PB1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bini-prince/ai_python_portfolio/blob/main/01_day1_%EB%B3%80%EC%88%98_%EB%AC%B8%EC%9E%90%EC%97%B4_%EA%B8%B0%EC%B4%88\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qASyMyooj40V",
+        "outputId": "2565c9d5-8adb-4f0d-c4f0-cd473f934d85"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1일차\n",
+            "내일부터 시작!\n",
+            "경빈의 나이는 28살 입니다.\n",
+            "취미는 배틀그라운드 입니다.\n",
+            "2일차\n",
+            "13\n",
+            "7\n",
+            "30\n",
+            "3.3333333333333335\n",
+            "3\n",
+            "1\n",
+            "안녕하세요, 경빈님!\n",
+            "파이썬! 파이썬! 파이썬! \n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"1일차\") #1일차 연습\n",
+        "print(\"내일부터 시작!\")\n",
+        "name = \"경빈\"\n",
+        "age = 28\n",
+        "print(name + \"의 나이는 \" + str(age) + \"살 입니다.\")\n",
+        "print(\"취미는 배틀그라운드 입니다.\")\n",
+        "\n",
+        "print(\"2일차\") #2일차 연습\n",
+        "a = 10\n",
+        "b = 3\n",
+        "\n",
+        "print(a + b)  # 덧셈\n",
+        "print(a - b)  # 뺄셈\n",
+        "print(a * b)  # 곱셈\n",
+        "print(a / b)  # 나눗셈 (결과는 소수)\n",
+        "print(a // b) # 몫\n",
+        "print(a % b)  # 나머지\n",
+        "\n",
+        "greeting = \"안녕하세요\"\n",
+        "name = \"경빈\"\n",
+        "\n",
+        "message = greeting + \", \" + name + \"님!\"\n",
+        "print(message)\n",
+        "\n",
+        "# 문자열 반복\n",
+        "print(\"파이썬! \" * 3)\n"
+      ]
+    }
+  ]
+}
